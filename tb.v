@@ -40,7 +40,7 @@ initial begin
     entrada = dados_arquivo[i][15:5];
     n = dados_arquivo[i][4:1];
     injeta_erro = dados_arquivo[i][0];
-    #1;
+    // #1;
   end
 
 end
